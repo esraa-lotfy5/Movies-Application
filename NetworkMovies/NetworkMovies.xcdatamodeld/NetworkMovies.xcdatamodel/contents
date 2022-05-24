@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName=".Item" syncable="YES">
+        <attribute name="gross" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="rank" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="weekend" optional="YES" attributeType="String"/>
+        <attribute name="weeks" optional="YES" attributeType="String"/>
+        <relationship name="relatedToResult" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Result" inverseName="item" inverseEntity="Result"/>
+    </entity>
+    <entity name="Result" representedClassName=".Result" syncable="YES">
+        <attribute name="errorMessage" optional="YES" attributeType="String"/>
+        <relationship name="item" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="relatedToResult" inverseEntity="Item"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-24.96875" positionY="-102.9921875" width="128" height="163"/>
+        <element name="Result" positionX="272.984375" positionY="-12.98828125" width="128" height="73"/>
+    </elements>
+</model>

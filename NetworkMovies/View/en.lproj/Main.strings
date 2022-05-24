@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Title: "; ObjectID = "4IP-sf-OcS"; */
+"4IP-sf-OcS.text" = "Title: ";
+
+/* Class = "UILabel"; text = "Weeks: "; ObjectID = "RG7-w5-LZP"; */
+"RG7-w5-LZP.text" = "Weeks: ";
+
+/* Class = "UILabel"; text = "ID: "; ObjectID = "c94-Q5-cry"; */
+"c94-Q5-cry.text" = "ID: ";
+
+/* Class = "UILabel"; text = "Rank:"; ObjectID = "gbt-S0-ZBn"; */
+"gbt-S0-ZBn.text" = "Rank:";
+
+/* Class = "UILabel"; text = "Weekend:"; ObjectID = "xrh-Ad-kx0"; */
+"xrh-Ad-kx0.text" = "Weekend:";
+
+/* Class = "UILabel"; text = "Gross:"; ObjectID = "yj5-zV-AQ0"; */
+"yj5-zV-AQ0.text" = "Gross:";
